@@ -1,0 +1,100 @@
+body {
+  background: rgb(194, 228, 240);
+
+  font-family: Verdana;
+}
+
+#other-books {
+  color: rgb(206, 199, 199);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#main h2 {
+  color: rgb(235, 235, 247);
+  text-align: center;
+}
+
+#main {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+#book-list {
+  padding: o;
+}
+
+#book-list li {
+  display: inline-block;
+  margin: 12px;
+
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #0e2288;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 3);
+  cursor: pointer;
+  color: #0e2288;
+  background-color: ghostwhite;
+}
+
+form {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid #392896;
+  margin: 10px;
+}
+
+form .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form label {
+  text-align: center;
+  padding: 6px;
+  border-radius: 20px;
+  border: 1px solid #392896;
+  margin: 4px;
+}
+form select,
+form input {
+  margin: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #2a2829;
+}
+
+form button {
+  color: #fff;
+  font-size: 1.5em;
+  background: #04bafc;
+  border-radius: 20px;
+  border: 1px solid #2a2829;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #0e2288;
+  font-size: 1.5em;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0, 0, 0, 3);
+  box-sizing: border-box;
+  color: #fff;
+}
